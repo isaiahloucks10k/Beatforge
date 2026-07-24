@@ -1,0 +1,15 @@
+BeatForge/
+├── mod.json
+├── CMakeLists.txt
+├── src/
+│   ├── main.cpp              # Entry point, hooks, UI
+│   ├── BPMDetector.h         # BPM detection via FMOD + MiniBPM
+│   ├── BPMDetector.cpp
+│   ├── LevelGenerator.h      # Core generation engine
+│   ├── LevelGenerator.cpp
+│   ├── LevelStringBuilder.h  # GD level string encoder
+│   ├── LevelStringBuilder.cpp
+│   ├── PatternDB.h           # Design pattern library
+│   └── MiniBpm.h             # Bundled BPM estimator
+└── support/
+    └── mini-bpm-license.txt
